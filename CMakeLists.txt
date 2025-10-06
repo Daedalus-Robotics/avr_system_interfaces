@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(avr_vmc_system_interfaces)
+project(avr_system_interfaces)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -11,6 +11,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
     "srv/SetNetworkConfig.srv"
+    "srv/SystemTrigger.srv"
 )
 
 if(BUILD_TESTING)

@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>avr_vmc_system_interfaces</name>
+  <name>avr_system_interfaces</name>
   <version>0.0.0</version>
-  <description>Some ROS2 interfaces for the avr_vmc_system node to use.</description>
+  <description>Some interfaces for the avr_system node to use.</description>
   <maintainer email="hunterbaker@me.com">Hunter Baker</maintainer>
   <license>LGPL-3.0-only</license>
 
